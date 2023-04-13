@@ -105,7 +105,7 @@
                                                         )
                                           );
                 $mail->Port = 587;
-                $mail->setFrom('KVR');
+                $mail->setFrom('konnectvr@gmail.com');
                 $mail->addAddress($to);
                 $mail->isHTML(true);
                 $mail->Subject = $subject;
